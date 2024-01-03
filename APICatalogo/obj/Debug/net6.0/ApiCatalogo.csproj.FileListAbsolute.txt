@@ -59,3 +59,4 @@ C:\Curso\Curso Web API\APICatalogoNet6\APICatalogo\APICatalogo\obj\Debug\net6.0\
 C:\Curso\Curso Web API\APICatalogoNet6\APICatalogo\APICatalogo\obj\Debug\net6.0\ApiCatalogo.pdb
 C:\Curso\Curso Web API\APICatalogoNet6\APICatalogo\APICatalogo\obj\Debug\net6.0\ApiCatalogo.genruntimeconfig.cache
 C:\Curso\Curso Web API\APICatalogoNet6\APICatalogo\APICatalogo\obj\Debug\net6.0\ref\ApiCatalogo.dll
+C:\Curso\Curso Web API\APICatalogoNet6\APICatalogo\APICatalogo\obj\Debug\net6.0\ApiCatalogo.sourcelink.json

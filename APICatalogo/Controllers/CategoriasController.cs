@@ -2,17 +2,16 @@
 using ApiCatalogo.Repository;
 using APICatalogo.Models;
 using AutoMapper;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ApiCatalogo.Controllers
 {
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[Controller]")]
     [ApiController]
+    //[EnableCors("PermitirApiRequest")]
     public class CategoriasController : ControllerBase
     {
         private readonly IUnitOfWork _context;
@@ -40,6 +39,7 @@ namespace ApiCatalogo.Controllers
         }
 
         [HttpGet("{id}", Name = "ObterCategoria")]
+        //[EnableCors("PermitirApiRequest")]
         public ActionResult<CategoriaDTO> Get(int id)
         {
             var categoria = _context.CategoriaRepository.GetById(p => p.CategoriaId == id);
